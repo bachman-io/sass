@@ -1,0 +1,16 @@
+{
+  "name": "sass",
+  "version": "0.0.1",
+  "description": "(S)CSS files for bachman.io",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --output-style compressed src/style.scss build/style.min.css",
+    "test": "./node_modules/.bin/node-sass src/style.scss build/style.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "bootstrap": "^4.1.3"
+  }
+}

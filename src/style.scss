@@ -167,11 +167,10 @@ a:active {
   background: inherit !important;
 }
 
-figure.wp-block-image {
+figure.wp-block-image img {
   margin-left: auto !important;
   margin-right: auto !important;
   margin-top: 1.5rem!important;
   display: block !important;
-  max-width: 100%;
   height: auto;
 }
